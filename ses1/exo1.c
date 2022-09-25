@@ -4,17 +4,14 @@
 
 void check_msb(int num)
 {
-if (num==0)
-{ printf("msb is not set") ; }
-else
-{
+
 int res = num & (1<<sizeof(int)*8-1) ;
 if (res==0)
-printf("0\n") ;
+printf("msb is not set\n") ;
 else
-printf("1\n") ;
+printf("msb is set\n") ;
 }
-}
+
 
 
 
@@ -23,7 +20,7 @@ printf("1\n") ;
 
 int main()
 {
- check_msb(123) ;
- check_msb(-5) ;
+ check_msb(-718) ;
+ check_msb(78) ;
 
 return 0 ; }
