@@ -4,7 +4,7 @@ int	main(void)
 	int		fd;
 	char	*line;
 
-	fd = open("testeabc.txt", O_RDONLY);
+	fd = open("test.txt", O_RDONLY);
 	while (1)
 	{
 		line = read_lines(fd);
