@@ -134,7 +134,6 @@ int main() {
 
     } 
     else if (command == "EXIT") {
-      // Quit the program
       break;
     } 
     else {
