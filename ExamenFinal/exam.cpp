@@ -40,7 +40,7 @@ class Library
         void displaybooks() 
         {
             cout.width(10) ; cout << right << "    Index" << "|" ; 
-            cout.width(10) ; cout << right << "Book name " << "|" ; 0
+            cout.width(10) ; cout << right << "Book name " << "|" ; 
             cout.width(10) ; cout << right << "   Author " << "|" << endl ; 
             cout << "---------------------------------" << endl ; 
             for (int i =0 ;i<taille;i++ )
